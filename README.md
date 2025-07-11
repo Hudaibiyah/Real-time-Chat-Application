@@ -93,7 +93,7 @@ chat-app/
 ![Login Page](assets/Login.png)
 
 ### 💬 Chatbox View
-![Chatbox](assets/chatbox.png)
+![Chatbox](assets/Chatbox.png)
 
 ### 🧑‍🤝‍🧑 Chat Room
-![Chat Room](assets/chatroom.png)
+![Chat Room](assets/Chatroom.png)
