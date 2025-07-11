@@ -87,7 +87,7 @@ chat-app/
   📸 Screenshots
 
   ### 📝 Registration Page
-![Registration Page](assets/Registration.png)
+![Registration Page](assets/Registration.png.png)
 
 ### 🔐 Login Page
 ![Login Page](assets/Login.png)
