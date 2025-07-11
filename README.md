@@ -30,38 +30,39 @@ A web-based real-time chat app using *PHP, **JavaScript, **MySQL, and **Ratchet 
 
  Clone the Repository
 
-bash
+```bash
 git clone https://github.com/[Your UserName]/Real-time-Chat-Application.git
-cd chat-app
-
+cd Real-time-Chat-Application
+```
 Install Ratchet WebSocket Library
-bash
+```bash
 composer require cboden/ratchet
-
+```
 Import the Database
 If you're using MySQL via XAMPP Shell, follow these steps:
 
 Open terminal and navigate to MySQL directory:
-
-bash
+```bash
 cd C:\xampp\mysql\bin
+```
 
 Enter MySQL shell:
-
-bash
-mysql -u root
+```bash
+mysql -u root -p
+```
 
 Run the following in the MySQL shell:
-sql
-CREATE DATABASE chat-app;
-USE chat_app;
-SOURCE C:\xampp\htdocs\chat-app\database.sql;
-
+```sql
+create database chat-app;
+use chat_app;
+SOURCE C:\xampp\htdocs\Real-time-Chat-Application\database.sql;
+```
 Run the WebSocket Server
 From your project folder:
-bash
-php websocket-server.php
 
+```bash
+php chat-server.php
+```
 Make sure port 8080 is free.
 
 🔐 Sample Login Credentials
@@ -71,6 +72,7 @@ Password: insha0202
 🗂 Project Structure
 
 chat-app/
+├── assets
 ├── vendor
 ├── db.php
 ├── login.php
